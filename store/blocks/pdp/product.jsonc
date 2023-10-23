@@ -93,6 +93,12 @@
       "displayThumbnailsArrows": true
     }
   },
+  "product-field": {
+    "props": {
+      "field": "Hello World",
+      "title": "product-field"
+    }
+  },
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -100,6 +106,7 @@
     },
     "children": [
       "flex-layout.row#product-name",
+      "product-field",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",

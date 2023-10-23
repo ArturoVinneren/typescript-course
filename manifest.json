@@ -1,8 +1,9 @@
 {
-  "vendor": "vtex",
+  "vendor": "vinnerenio",
   "name": "store-theme",
-  "version": "5.1.0",
+  "version": "0.0.1",
   "builders": {
+    "react": "3.x",
     "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",
@@ -63,9 +64,6 @@
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x"
-  },
-  "peerDependencies": {
-    "vtex.reviews-and-ratings": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
