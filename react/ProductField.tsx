@@ -1,8 +1,10 @@
 import React, { useContext } from 'react'
 import { ProductContext } from 'vtex.product-context'
 
-const ProductField = ({field}) => {
-  const { product } = useContext(ProductContext)
+type ProductContextType = typeof ProductContext
+
+const ProductField = ({field}: {field: string}) => {
+  const { product } = useContext(ProductContext) as ProductContextType
 
   const checkField = (value) => {
     if (!value) return ''
